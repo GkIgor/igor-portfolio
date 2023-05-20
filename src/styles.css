@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+:root {
+    --very_dark_navy_blue: #041E40;
+    --deep_navy_blue: #051326;
+    --light_blue: #79AEF2;
+    --dark_brown: #736626;
+    --light_gray: #A6A6A6;
+    --white: #fff;
+    --black: #000;
+}
