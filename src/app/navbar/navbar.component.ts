@@ -7,8 +7,14 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   public user: string = 'Igor F.';
   public sobre: boolean = false;
+  public showMenu: boolean = false;
 
   public exibirSobre(): void {
     this.sobre = !this.sobre;
+
+  }
+
+  toggleMenu(): void {
+    this.showMenu = !this.showMenu;
   }
 }

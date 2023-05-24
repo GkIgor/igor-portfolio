@@ -1,23 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto Slab', serif;
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
 }
-h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+@font-face {
+  font-family: "Zero Prime";
+  src: url(/src/assets/fonts/prime/Prime_Regular.ttf);
+}
+
+@font-face {
+  font-family: Polaris;
+  src: url(/src/assets/fonts/polaris/Polaris.otf);
 }
 
 :root {
-    --very_dark_navy_blue: #041E40;
-    --deep_navy_blue: #051326;
-    --light_blue: #79AEF2;
-    --dark_brown: #736626;
-    --light_gray: #A6A6A6;
-    --white: #fff;
-    --black: #000;
+  --azul_muito_escuro: #6638a6;
+  --azul_marinho_muito_escuro: #050426;
+  --azul_roxo: #4453a6;
+  --azul_escuro: #081c59;
+  --verde_azulado: #50f2e2;
+  --rosa_vibrante: #c955d9;
+  --preto: #00010d;
+  --azul_meia_noite: #072359;
+  --branco: #f2f2f2;
 }

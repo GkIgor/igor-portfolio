@@ -1,8 +1,16 @@
-/*@import "~@fortawesome/fontawesome-free/css/all.css";*/
-
 .bg-nav {
-    background-color: var(--light_blue);
+  background-color: var(--azul_marinho_muito_escuro);
 }
+
 .bg-nav a {
-    color: var(--white);
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--branco);
+}
+
+div a.logo {
+  font-family: Polaris, sans-serif;
+}
+
+.toggle-icon {
+  color: var(--branco);
 }
