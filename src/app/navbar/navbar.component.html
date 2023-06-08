@@ -120,8 +120,8 @@
     </div>
   </div>
 
-  <div class="hidden md:hidden" [ngClass]="{ hidden: !showMenu }">
-    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+  <div class="md:hidden slide-down" [ngClass]="{ hidden: !showMenu }">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3" [ngClass]="{ 'slide-down': showMenu }">
       <a
         href="#"
         class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
