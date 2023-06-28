@@ -1,0 +1,13 @@
+p {
+  color: var(--branco);
+}
+
+.presentation {
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+}
+
+#title-1 {
+  color: var(--branco);
+}
+
