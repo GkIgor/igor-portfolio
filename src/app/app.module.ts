@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { SobreComponent } from './components/sobre/sobre.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { IconsModule } from './icons/icons.module';
-import { NavIconsComponent } from './navbar/nav-icons/nav-icons.component';
-import { BannerComponentComponent } from './home/banner-component/banner-component.component';
+import { NavIconsComponent } from './components/navbar/nav-icons/nav-icons.component';
+import { BannerComponentComponent } from './components/home/banner-component/banner-component.component';
+import { GridSkillsComponent } from './components/home/banner-component/grid-skills/grid-skills.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BannerComponentComponent } from './home/banner-component/banner-compone
     HomeComponent,
     NavIconsComponent,
     BannerComponentComponent,
+    GridSkillsComponent,
   ],
   imports: [
     BrowserModule,
