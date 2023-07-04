@@ -4,12 +4,14 @@ import { Component } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent {
-  public user: string = 'Igor F.';
-  public sobre: boolean = false;
-  public showMenu: boolean = false;
 
-  public exibirSobre(): void {
+export class NavbarComponent {
+  user: string = 'Igor F.';
+
+  sobre: boolean = false;
+  showMenu: boolean = false;
+
+  exibirSobre(): void {
     this.sobre = !this.sobre;
 
   }
@@ -17,4 +19,7 @@ export class NavbarComponent {
   toggleMenu(): void {
     this.showMenu = !this.showMenu;
   }
+
+
+
 }

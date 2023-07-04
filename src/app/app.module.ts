@@ -9,6 +9,7 @@ import { IconsModule } from './icons/icons.module';
 import { NavIconsComponent } from './components/navbar/nav-icons/nav-icons.component';
 import { BannerComponentComponent } from './components/home/banner-component/banner-component.component';
 import { GridSkillsComponent } from './components/home/banner-component/grid-skills/grid-skills.component';
+import { CarrouselComponent } from './components/home/carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { GridSkillsComponent } from './components/home/banner-component/grid-ski
     NavIconsComponent,
     BannerComponentComponent,
     GridSkillsComponent,
+    CarrouselComponent,
   ],
   imports: [
     BrowserModule,

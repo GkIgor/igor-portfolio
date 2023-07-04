@@ -1,13 +1,15 @@
 p {
   color: var(--branco);
+  letter-spacing: 2.2px;
 }
 
 .presentation {
-  font-family: "roboto Thin",'roboto', sans-serif;
+  font-family: "roboto Thin", "roboto", sans-serif;
   font-weight: 200;
 }
 
 #title-1 {
   color: var(--branco);
+  letter-spacing: 4px;
 }
 
