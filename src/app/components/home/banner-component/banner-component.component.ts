@@ -24,7 +24,7 @@ export class BannerComponentComponent {
       if (i === textoCompleto.length) {
         clearInterval(intervalo);
       }
-    }, 100); // Ajuste o valor do intervalo conforme desejado (em milissegundos)
+    }, 10);
   }
   ngOnInit(): void {
     this.digitarTexto();

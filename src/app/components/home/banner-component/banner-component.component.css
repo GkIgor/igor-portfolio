@@ -12,4 +12,8 @@ p {
   color: var(--branco);
   letter-spacing: 4px;
 }
+#primary{
+  border: 2px solid var(--azul_escuro);
+
+}
 
